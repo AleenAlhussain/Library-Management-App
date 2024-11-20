@@ -1,3 +1,39 @@
+🚀 Milestone Project: Library Management App 📚✨
+Developed using React.js and MUI, this app simplifies book borrowing with the following features:
+
+🌟 Home Page:
+
+Browse and borrow books with details like image, title, author, and description.
+Add multiple books to the cart.
+🛒 Cart Page:
+
+View selected books, set borrowing periods, and see return dates.
+Track the total number of books borrowed.
+Agree to terms before proceeding to checkout.
+✅ Checkout Page:
+
+Step 1: Personal Info | Step 2: Library Card Info | Step 3: Summary & Confirmation.
+Confirm borrowing, show success messages, and return to the home page.
+📖 Borrowing History:
+
+View past borrowings with filters by date and return status.
+Mark books as returned after the due date.
+# in my project One of the most important requirements
+Checkout Page:
+Multi-step checkout form with validation
+. Step 1: Personal Information
+. Step 2: Library Card Information (Full name, Library Card Number)
+. Step 3: Summary and confirmation Step includes:
+- Display the summary of entered data from the previous steps
+- List the borrowed books with their due dates
+- Display the total number of borrowed books
+- Confirmation Button (use "confirm" window method to confirm borrowing)
+- Show a suitable success message, clear the borrowed books list, and return to the home page.
+Borrowing History Page (link located in profile dropdown):
+. List all previous borrowings in a table format (Date, Total Books, Button to view the borrowed books in a Dialog)
+. Filter borrowing records by date
+. We show status reflect books (returned or not)
+. We add action button to change status to "returned". The action show up after selected return date.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
